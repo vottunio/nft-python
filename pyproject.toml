@@ -1,0 +1,24 @@
+# sdkVottun.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "NFT_Vottun_SDK"
+version = "1.0.10"
+description = "Python SDK to interact with Vottun's API platform"
+readme = "README.md"
+authors = [{ name = "VOTTUN Blockchain API", email = "jalfaro@vottun.com" }]
+license = { file = "LICENSE" }
+keywords = ["Blockchain", "Web3", "API", "NFT", "Python"]
+dependencies = [
+    "requests",   
+    "urllib3",
+    "pybase64",
+]
+requires-python = ">=3.8"
+
+
+[project.urls]
+Homepage = "https://vottun.com"
